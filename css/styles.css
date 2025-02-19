@@ -55,7 +55,7 @@ p{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 8%;
 }
 
 /* download buttons */
@@ -65,13 +65,16 @@ p{
 
 /* The Image */
 .Phone-Image{
-    width: 60%;
+    width: 21%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 /* featuers section */
 #features{
     padding: 7% 15%;
+    background-color: white;
+    position:relative;
 }
 
 .feature-box{
