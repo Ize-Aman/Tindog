@@ -1,176 +1,178 @@
 /* General Styles */
 body {
-    font-family: "Montserrat";
+  font-family: "Montserrat";
 }
 
-h1, h2, h3 {
-    font-family: "Montserrat";
-    line-height: 1.5;
-    font-weight: 900;
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 h1 {
-    font-weight: 900;
-    font-size: 3rem;
+  font-weight: 900;
+  font-size: 3rem;
 }
 
 h2 {
-    font-weight: bold;
-    font-size: 2.5rem;
+  font-weight: bold;
+  font-size: 2.5rem;
 }
 
 h3 {
-    font-weight: 800;
-    font-size: 1.5rem;
+  font-weight: 800;
+  font-size: 1.5rem;
 }
 
 p {
-    color: #8f8f8f;
+  color: #8f8f8f;
 }
 
 .container-fluid {
-    padding: 3% 15% 8%;
+  padding: 3% 15% 8%;
 }
 
 /* Navbar */
 .navbar {
-    padding: 0 0 4.5rem;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .nav-item {
-    padding: 0 18px;
+  padding: 0 18px;
 }
 
 .nav-link {
-    font-family: "Montserrat";
-    font-size: 1.2rem;
-    font-weight: light;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: light;
 }
 
 /* Title Section */
 #title {
-    background-color: #ff4c68;
-    color: white;
+  background-color: #ff4c68;
+  color: white;
 }
 
 #title .firstHeading {
-    font-family: "Montserrat";
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1.5;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
 }
 
 .download-button {
-    margin: 5% 3% 5% 0%;
+  margin: 5% 3% 5% 0%;
 }
 
 .Phone-Image {
-    width: 21%;
-    transform: rotate(25deg);
-    position: absolute;
+  width: 21%;
+  transform: rotate(25deg);
+  position: absolute;
 }
 
 @media (max-width: 991px) {
-    .Phone-Image {
-        position: static;
-        transform: rotate(0);
-        width: 50%;
-    }
-    #title {
-        text-align: center;
-    }
+  .Phone-Image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+  #title {
+    text-align: center;
+  }
 }
 
 /* Features Section */
 #features {
-    padding: 7% 15%;
-    background-color: white;
-    position: relative;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
 .feature-box {
-    text-align: center;
-    padding: 5%;
+  text-align: center;
+  padding: 5%;
 }
 
 .fa-icons {
-    color: #ef8172;
-    padding-bottom: 5%;
+  color: #ef8172;
+  padding-bottom: 5%;
 }
 
 .fa-icons:hover {
-    color: #ff4c68;
+  color: #ff4c68;
 }
 
 /* Testimonials Section */
 #testimonials {
-    text-align: center;
-    background-color: #ef8172;
-    color: white;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
 }
 
 .testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
 .carousel-item {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 /* Press Section */
 #press {
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 .press-img {
-    width: 13%;
-    margin: 20px 20px 50px;
+  width: 13%;
+  margin: 20px 20px 50px;
 }
 
 /* Pricing Section */
 #pricing {
-    padding: 100px;
+  padding: 100px;
 }
 
 .pricing-column {
-    padding: 3% 2%;
-    text-align: center;
+  padding: 3% 2%;
+  text-align: center;
 }
 
 /* Call to Action Section */
 #cta {
-    background-color: #ff4c68;
-    text-align: center;
+  background-color: #ff4c68;
+  text-align: center;
 }
 
 .cta-h3 {
-    font-weight: 900;
-    color: white;
-    font-size: 3rem;
-    padding: 7% 15% 5%;
+  font-weight: 900;
+  color: white;
+  font-size: 3rem;
+  padding: 7% 15% 5%;
 }
 
 .cta-btn {
-    margin: auto 3% 9% auto;
+  margin: auto 3% 9% auto;
 }
 
 /* Footer Section */
 #footer {
-    background-color: #fff;
-    text-align: center;
-    padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 15%;
 }
 
 .footer-icons {
-    margin: 20px 10px;
+  margin: 20px 10px;
 }
